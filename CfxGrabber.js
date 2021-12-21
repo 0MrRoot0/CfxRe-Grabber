@@ -3,7 +3,7 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest; /*Parempi vaan constiin pivitt*/
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest; 
 rl.question('CFX.RE URL : ', function (name) {
     	var req = new XMLHttpRequest();
 	req.open('GET', "https://"+name, false);
